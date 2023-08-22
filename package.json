@@ -1,0 +1,36 @@
+{
+  "name": "cafeteria",
+  "version": "1.0.0",
+  "description": "Aprendiendo SASS, Gulp, CSS Grid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mictlantecuhtli2/cafeteria.git"
+  },
+  "author": "Eduardo Vargas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mictlantecuhtli2/cafeteria/issues"
+  },
+  "homepage": "https://github.com/Mictlantecuhtli2/cafeteria#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-avif": "^1.1.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-webp": "^4.0.1",
+    "postcss": "^8.4.27",
+    "sass": "^1.65.1"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.15",
+    "gulp-postcss": "^9.0.1"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%"
+  ]
+}
