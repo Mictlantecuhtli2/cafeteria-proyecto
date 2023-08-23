@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafetería</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=Raleway:wght@700;900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+    <header class="header header-nosotros">
+        <div class="contenido-header contenedor">
+            <div class="barra">
+                <div class="logo">
+                    <img src="build/img/logo.svg" alt="logo cafetería">
+                </div>
+
+                <nav class="nav-principal">
+                    <a href="index.html">Inicio</a>
+                    <a class="activo" href="nosotros.html">Nosotros</a>
+                    <a href="proceso.html">Proceso</a>
+                    <a href="menu.html">Menú</a>
+                    <a href="galeria.html">Galería</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+            </div>
+
+            <div class="texto-header">
+                <h1>Una nueva experiencia cada día</h1>
+            </div>
+            
+        </div>
+    </header>
+
+    <main class="contenedor contenido-principal">
+        <h2>Conoce más<span> sobre nosotros</span></h2>
+
+        <div class="contenido-nosotros">
+            <div class="imagen">
+
+                <picture>
+                    <source
+                        srcset="build/img/nosotros_sidebar.avif" 
+                        type="image/avif">
+                    <source
+                        srcset="build/img/nosotros_sidebar.webp" 
+                        type="image/webp">
+                    <source
+                        srcset="build/img/nosotros_sidebar.jpg" 
+                        type="image/jpeg">
+                    <img loading="lazy" decoding="async" src="build/img/nosotros_sidebar.jpg" lazyalt="imagen" width="500" height="300">
+                </picture>
+
+            </div>
+
+            <div class="texto">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam similique nihil accusamus impedit facere odio officia pariatur. Reiciendis non exercitationem velit molestiae. Ea ullam maiores libero natus distinctio architecto dolor.</p>
+
+                <blockquote>Excelente Sabor!</blockquote>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex saepe reiciendis dicta iste ea quae possimus iusto eligendi a nisi, ad quos sint laudantium magnam. Porro dolorum maiores ab adipisci.</p>
+            </div>
+        </div>
+        
+    </main>
+
+    <footer class="footer">
+        <div class="contenedor contenido-footer bg-white">
+
+            <div class="footer-box ubicacion">
+                <h3>Ubicación</h3>
+                <p>Col. Centro 37000</p>
+                <p>León Guanajuato</p>
+            </div>
+            <div class="footer-box reservacion">
+                <h3>Reservación</h3>
+                <p>Tel.52-494-288</p>
+                <a href="tel:+52494288">Llamar</a>
+            </div>
+            <div class="footer-box horario">
+                <h3>Horario</h3>
+                <p>Lun-Jue: 11:00 - 22:00</p>
+                <p>Vie-Sab: 09:00 - 24:00</p>
+                <p>Domingo: Cerrado</p>
+            </div>
+
+        </div>
+        <p class="copyright">Todos los derechos reservados. La Cafetería</p>
+    </footer>
+</body>
+</html>

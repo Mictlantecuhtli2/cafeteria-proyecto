@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mictlantecuhtli2/cafeteria.git"
+    "url": "git+https://github.com/Mictlantecuhtli2/cafeteria-proyecto.git"
   },
   "author": "Eduardo Vargas",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Mictlantecuhtli2/cafeteria/issues"
+    "url": "https://github.com/Mictlantecuhtli2/cafeteria-proyecto/issues"
   },
-  "homepage": "https://github.com/Mictlantecuhtli2/cafeteria#readme",
+  "homepage": "https://github.com/Mictlantecuhtli2/cafeteria-proyecto#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-avif": "^1.1.1",
