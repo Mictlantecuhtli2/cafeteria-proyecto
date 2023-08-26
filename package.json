@@ -21,6 +21,7 @@
     "gulp-avif": "^1.1.1",
     "gulp-imagemin": "^7.1.0",
     "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
     "gulp-webp": "^4.0.1",
     "postcss": "^8.4.27",
     "sass": "^1.65.1"
